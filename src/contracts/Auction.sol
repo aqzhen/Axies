@@ -71,6 +71,17 @@ contract Auction is ERC721HolderUpgradeable, ERC1155HolderUpgradeable, AccessCon
         Initialization
     **********************/
 
+    /**
+     * @dev Create Auction instance
+     * @param _seller address of seller for auction
+     * @param _asset struct containing information of the asset to be listed
+     * @param ERC20contractAddress address of ERC20 token accepted as payment
+     * @param _startPrice start bid on nft
+     * @param _auctionDuration duration of auction (in seconds)
+     * @param _resetTime time at which the auction resets when a bid is made within this time frame (in seconds)
+     * @param _returnRate the rate that a bidder gets when outbid
+    */
+
     constructor(address payable _seller,
         AuctionLib.Asset memory _asset,
         address _ERC20contractAddress,
