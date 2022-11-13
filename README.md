@@ -1,4 +1,6 @@
-# B2E Auction Contract: Auction.sol
+# Axies
+
+## A B2E Auction Contract: Auction.sol
 
 We introduce a novel "bid-to-earn" contract with incentives for bidders who are outbid during the auction. This pricing mechanism further drives price-discovery and incentivizes investors to allocate more capital towards purchasing carbon credits.
 
